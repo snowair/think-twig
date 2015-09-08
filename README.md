@@ -19,6 +19,15 @@ composer require snowair/think-twig:dev-master
 'TMPL_ENGINE_TYPE'=>'Twig',
 ```
 
+
+### 错误跳转页面和成功跳转页面
+
+控制器的error/success方法的模板始终采用think引擎渲染.
+
+如果您需要使用twig引擎自定义这两种页面的模板, 只需要使用 `TMPL_ACTION_ERROR`和`TMPL_ACTION_SUCESS`配置指定模板文件的位置,并将模板文件的后缀名改为`twig`即可.
+
+* 注:异常页面模板, 不支持任何模板引擎.
+
 配置Twig
 -------
 
