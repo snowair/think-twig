@@ -6,6 +6,8 @@ ThinkPHP3.2 Twig模板引擎
 安装
 ------
 
+[composer中文文档](http://www.kancloud.cn/thinkphp/composer)
+
 ```
 composer require snowair/think-twig:dev-master
 ```
